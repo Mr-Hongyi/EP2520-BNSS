@@ -20,7 +20,5 @@ iptables -A INPUT -p tcp --dport 443 -j ACCEPT #HTTPS
 #default policies
 iptables -P OUTPUT ACCEPT
 iptables -P INPUT DROP
- 
-#save to /etc/sysconfig/iptables
-/etc/init.d/iptables save
+
 

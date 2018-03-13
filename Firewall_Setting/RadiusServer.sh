@@ -20,7 +20,6 @@ iptables -A INPUT -p udp --dport 1813 -j ACCEPT #Radius Acc
 #default policies
 iptables -P OUTPUT ACCEPT
 iptables -P INPUT DROP
- 
-#save to /etc/sysconfig/iptables
-/etc/init.d/iptables save
+
+
 
